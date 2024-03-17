@@ -9,7 +9,7 @@ export default mergeConfig(
       globals: true,
       environment: 'happy-dom',
       exclude: [...configDefaults.exclude, 'e2e/*'],
-      root: fileURLToPath(new URL('./', import.meta.url))
-    }
-  })
+      root: fileURLToPath(new URL('./', import.meta.url)),
+    },
+  }),
 )

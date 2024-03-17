@@ -4,6 +4,8 @@
   "tabWidth": 2,
   "singleQuote": true,
   "printWidth": 100,
-  "trailingComma": "none",
+  "trailingComma": "all",
+  "vueIndentScriptAndStyle": true,
+  "htmlWhitespaceSensitivity": "css",
   "plugins": ["prettier-plugin-tailwindcss"]
 }
